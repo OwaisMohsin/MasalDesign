@@ -335,11 +335,11 @@ $(window).on('load', function () {
     series: [
       {
         name: 'Earning',
-        data: [95, 177, 284, 256, 105, 63, 168, 218, 72]
+        data: [ 195, 177, 284, 256,]
       },
       {
         name: 'Expense',
-        data: [-145, -80, -60, -180, -100, -60, -85, -75, -100]
+        data: []
       }
     ],
     dataLabels: {
@@ -358,7 +358,7 @@ $(window).on('load', function () {
       }
     },
     xaxis: {
-      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+      categories: ['order', 'product', 'visit', 'customers'],
       labels: {
         style: {
           colors: $textMutedColor,
